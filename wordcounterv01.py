@@ -21,7 +21,7 @@ class FirstFrame(tk.Frame):
         self.pack()
         master.title('WordCounter v0.1')
         master.geometry("300x200")
-        lbl = tk.Label(self, text='Please select a file wanker')
+        lbl = tk.Label(self, text='Please select a file:')
         lbl.pack()
         self.e = tk.Entry(self,width=50)
         self.e.pack()
